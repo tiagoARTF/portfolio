@@ -94,6 +94,7 @@
   }
   .text-container {
     text-align: justify;
+    padding: 10px;
   }
   #desktop-nav{
     width: 45vw;

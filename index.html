@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Santiago Arteaga Tobón</title>
+    <title>Portafolio - Santiago Arteaga Tobón</title>
     <link href="assets/sa-logo.png" rel="icon">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
@@ -18,10 +18,10 @@
       </div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About me</a></li>
-          <li><a href="#experience">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Sobre Mi</a></li>
+          <li><a href="#experience">Habilidades</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -38,29 +38,29 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About me</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">Sobre Mi</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Habilidades</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+          <li><a href="#profile" onclick="toggleMenu()">Inicio</a></li>
         </div>
       </div>
     </nav>
     <section id="profile">
         <img src="./assets/rakicevic.jpg" class="section__pic-container" alt="Santiago A profile picture" />
       <div class="section__text">
-        <p class="section__text__p1">Hi, I'am</p>
+        <p class="section__text__p1">Hola, soy</p>
         <h1 class="title">Santiago Arteaga</h1>
-        <p class="section__text__p2">passionate about web and mobile development in Colombia</p>
+        <p class="section__text__p2">Apasionado por el desarrollo web y movil en colombia</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/CV SA.pdf')"
+            onclick="window.open('./assets/cv.pdf')"
           >
-            Download CV
+            Descargar CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
+            Contacto
           </button>
         </div>
         <div id="socials-container">
@@ -68,7 +68,7 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/santiago-arteaga-594425173/'" target="_blank"
+            onclick="location.href='https://www.linkedin.com/in/santiago-arteaga'" target="_blank"
           />
           <img
             src="./assets/github.png"
@@ -80,40 +80,13 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">More Information</p>
-      <h1 class="title">About me</h1>
+      <p class="section__text__p1">Mas información</p>
+      <h1 class="title">Sobre Mi</h1>
       <div class="section-container">
-        <div class="section__pic-container">
-          <img
-            src="./assets/pexels-martin-péchy-1028203.jpg"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div>
         <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Junior<br />without experience  </p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>baccalaureate: I.E Primitivo Leal La Doctora<br />CESDE: Desarrollo De software</p>
-            </div>
-          </div>
           <div class="text-container">
             <p>
-              I am a software developer with no professional experience; I have always had a keen interest in technology and programming. I love learning and challenging myself to solve problems, and have been working on personal projects to improve my programming skills.
+              Me encanta aprender y desafiarme a mí mismo con nuevos proyectos de tecnología. Siempre he tenido un especial interés en el desarrollo de aplicaciones. Durante mi formación como asistente de Desarrollo de Software tuve la oportunidad de colaborar en diferentes proyectos de programación en los lenguajes: Java, JavaScript. Python y MongoDB. Particularmente me gustaría enfocarme en el desarrollo Front-End, ya que creo que mis habilidades y talentos pueden impulsar el crecimiento de la empresa. Una de mis metas personales es formar parte de un equipo multidisciplinario en el que mis habilidades y talentos impulsen el crecimiento de la empresa, al tiempo que se vayan fortaleciendo mis habilidades técnicas y blandas.
             </p>
           </div>
         </div>
@@ -126,12 +99,11 @@
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore my</p>
-      <h1 class="title">Skills</h1>
+      <h1 class="title">Habilidades</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Desarrollo Front-End</h2>
             <div class="article-container">
               <article>
                 <img
@@ -141,7 +113,6 @@
                 />
                 <div>
                   <h3 translate="no">HTML</h3>
-                  <p translate="no">Experienced</p>
                 </div>
               </article>
               <article>
@@ -152,7 +123,7 @@
                 />
                 <div>
                   <h3 translate="no">CSS</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
               <article>
@@ -164,7 +135,7 @@
                 
                 <div>
                   <h3 translate="no">JavaScript</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
               <article>
@@ -175,7 +146,7 @@
                 />
                 <div>
                   <h3 translate="no">TypeScript</h3>
-                  <p translate="no">Basic</p>
+                  
                 </div>
               </article>
               <article>
@@ -186,7 +157,7 @@
                   />
                 <div>
                   <h3 translate="no">React</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
               <article>
@@ -197,14 +168,14 @@
                   />
                 <div>
                   <h3 translate="no">Material UI</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
                 <br>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
+            <h2 class="experience-sub-title">Desarrollo Back-End</h2>
             <div class="article-container">
               <article>
                 <img
@@ -214,7 +185,7 @@
                 />
                 <div>
                   <h3 translate="no">SQL Server</h3>
-                  <p translate="no">Experienced</p>
+                
                 </div>
               </article>
               <article>
@@ -225,7 +196,7 @@
                 />
                 <div>
                   <h3 translate="no">Java</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
               <article>
@@ -236,7 +207,7 @@
                 />
                 <div>
                   <h3 translate="no">Next.JS</h3>
-                  <p translate="no">Basic</p>
+                  
                 </div>
               </article>
               <article>
@@ -247,7 +218,7 @@
                 />
                 <div>
                   <h3 translate="no">MongoDB</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
               <article>
@@ -258,7 +229,7 @@
                 />
                 <div>
                   <h3 translate="no">Node JS</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
               <article>
@@ -269,7 +240,7 @@
                 />
                 <div>
                   <h3 translate="no">Git</h3>
-                  <p translate="no">Intermediate</p>
+                  
                 </div>
               </article>
             </div>
@@ -284,8 +255,8 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse my recent</p>
-      <h1 class="title">Projects</h1>
+      <p class="section__text__p1">Explorar mis recientes proyectos</p>
+      <h1 class="title">Proyectos</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
@@ -296,19 +267,13 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">APP Budget</h2>
+            <h2 class="experience-sub-title project-title">App Presupuesto</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/tiagoARTF/APP-Presupuesto'"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://apl546presupuesto.netlify.app/'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -320,7 +285,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Design UI</h2>
+            <h2 class="experience-sub-title project-title">Diseño UI</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -338,7 +303,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">App Loan</h2>
+            <h2 class="experience-sub-title project-title">App Prestamo</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -358,8 +323,8 @@
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">go to </p>
-      <h1 class="title">Contact Us</h1>
+      <p class="section__text__p1">ir a</p>
+      <h1 class="title">Contacto</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -384,11 +349,11 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#profile">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#experience">Skills</a></li>
-            <li><a href="#projects">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#profile">Inicio</a></li>
+            <li><a href="#about">Sobre Mi</a></li>
+            <li><a href="#experience">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
       </nav>

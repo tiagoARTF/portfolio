@@ -21,6 +21,7 @@ html {
 
 p {
   color: rgb(39, 37, 37);
+  font-size: 20px
 }
 
 /* TRANSITION */
@@ -155,7 +156,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 70vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -281,7 +282,7 @@ section {
 
 .about-details-container {
   justify-content: center;
-  flex-direction: column;
+  padding: 60px ;
 }
 
 .about-containers,
